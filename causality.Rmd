@@ -20,7 +20,7 @@ editor_options:
 
 load(url("https://biostat.app.vumc.org/wiki/pub/Main/DataSets/rhc.sav"))
 
-
+# again
 # Convert character variables to numeric variables
 table(rhc$cat1)
 ARF<-as.numeric(rhc$cat1=='ARF')
